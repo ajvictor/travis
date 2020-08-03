@@ -1,8 +1,3 @@
-require 'rubygems'
-require ‘rake/testtask’
-
-
-task default: "test"
-Rake::TestTask.new do |task|
- task.pattern = ‘test/*_test.rb’
+task :default do
+  puts "Hello World!"
 end
