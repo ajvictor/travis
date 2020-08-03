@@ -1,6 +1,5 @@
 require 'rubygems'
-require 'cucumber'
-require 'cucumber/rake/task'
+
 
 desc 'Execute Buyer features'
 task :buyer_features, [:apk_path] do |_task, args|
